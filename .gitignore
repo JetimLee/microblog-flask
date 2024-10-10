@@ -1,1 +1,18 @@
+
+
+# Ignore Python virtual environments
 venv/
+
+# Other common ignores for Python projects
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Ignore system-specific files
+.DS_Store
+*.swp
+
+# Flask env variables
+.flaskenv
